@@ -1,0 +1,19 @@
+This skill was to create a new branch in a local git repository and then merge
+it back into the master branch, which is done with the following code:
+
+Creating branch:
+
+$ git branch LVG
+
+Moving to branch:
+
+$ git checkout LVG
+
+Work in the brnach:
+
+$ git add "contents of LVG"
+$ git commit -m "contents of LVG"
+
+Merge branch with master:
+
+$ git merge LVG

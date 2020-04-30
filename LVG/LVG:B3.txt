@@ -1,0 +1,12 @@
+This skill is that I can reset to a previous version of a local git repository,
+which can be done with the following command:
+
+For resting a specific commit:
+
+$ git reset --soft <commit-hash>
+
+or resetting before the most recent commit
+
+$ git reset --soft HEAD-1
+
+soft is used to keep changes made in the working directory.

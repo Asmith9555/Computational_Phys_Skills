@@ -1,0 +1,5 @@
+The skill is that I can list all the files in a directory that end in .dat,
+which can be done with the following code in the directory containing dat
+files:
+
+$ ls *.dat

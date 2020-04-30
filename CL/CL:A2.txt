@@ -1,0 +1,5 @@
+The skill is to write a command that creates a .txt file with the file names of
+all .dat files in a directory on seperate lines in order from oldest to newest,
+the command is as follows:
+
+$ ls -tr *.dat >> <fileName>.txt

@@ -1,0 +1,6 @@
+The skill is that all files in a directory in order by modification date (oldest
+first), which can be done using the code:
+
+$ ls -tr
+(-t normally lists the files recent first, the reverse gives the appropriate
+oldest first.)

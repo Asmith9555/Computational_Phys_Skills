@@ -1,0 +1,4 @@
+This skill was to list the branches that exist in a local git repository, whcih
+is done with the following code:
+
+$ git show-branch --all

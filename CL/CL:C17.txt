@@ -1,0 +1,4 @@
+The skill is to change the ownership of a file, which can be done with the
+following code:
+
+$ chown user <fileNmae>

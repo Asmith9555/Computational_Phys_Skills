@@ -1,0 +1,9 @@
+The skill is I can add multiple lines of text to a file without leaving the
+terminal. For one there are alot of text editors that work inside the terminal
+(nano, vim, emacs, etc.), however this is still technically leaving the terminal.
+To add lines without leaving the terminal the following code can be used:
+
+$ echo "Line_1" >> <fileName>
+$ echo "Line_2" >> <fileName>
+$ echo "Line_2" >> <fileName>
+...etc.

@@ -1,0 +1,8 @@
+The skill is that I can view the difference between the current and staged version of a file in
+a local git repository, which is done with the following code:
+
+For the difference in every staged commit:
+
+$ git diff --staged
+
+This will produce a log that indexes each change for each staged file.

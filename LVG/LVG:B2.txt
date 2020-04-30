@@ -1,0 +1,4 @@
+The skill is to unstage a file in a local git repository, which can be done
+using the following command:
+
+$ git restore --staged <filePath>

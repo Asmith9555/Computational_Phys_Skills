@@ -1,0 +1,7 @@
+The skill is to use pdf latex to produce a PDF from the Hello World!" document.
+This is done with the following commands:
+
+$pdflatex "PWL:D2-5,C2-6,B1-7.tex"
+$biber "PWL:D2-5,C2-6,B1-7"
+$pdflatex "PWL:D2-5,C2-6,B1-7.tex"
+$pdflatex "PWL:D2-5,C2-6,B1-7.tex"

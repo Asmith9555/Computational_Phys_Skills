@@ -1,0 +1,4 @@
+The skill is to see the permissions on a file, which can be done with the
+following code:
+
+$ ls -l <fileName>

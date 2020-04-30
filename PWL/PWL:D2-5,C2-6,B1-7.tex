@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[style=numeric, backend=biber]{biblatex}
+\usepackage{csquotes}
+\usepackage{hyperref}
+%PWL-B5: Using biber to add a .bib file
+\addbibresource{PWL:B5.bib}
+%PWL-D4: Declare Title in Preamble of LaTeX Document
+\title{Generic Document}
+%PWL-D3: Declare Author in Preamble of LaTeX Document
+\author{Austin Smith}
+%PWL-D5: Declare Date in Preamble of LaTeX Document
+\date{}
+\begin{document}
+%PWL-C2: Use a Command to Format Title, Author, and Date in Document
+\maketitle{}
+%PWL-C3: Use sections
+\section{Greeting the World}
+%PWL-D2: Print the words 'Hello World!' in a pdf
+%PWL-B6: Cite ECP
+Hello World! \cite{ECP}
+%PWL-A2: Use Hyperref to add references
+\href{https://www.amazon.com/Effective-Computation-Physics-Research-Python/dp/1491901535}{(purchase link}
+\section{Geometry}
+%PWL-C6: Include a Figure with a caption, label, and graphics
+\begin{figure}[thp]
+%PWL-B3: Center Graphics
+    \centering
+    \includegraphics[width=0.45\textwidth]{geometry.jpg}
+    \caption{Set up of the geometry used to derive a correlation between
+    overlapping area and angular offset betwee two circles.}
+    \label{figure:geometry}
+\end{figure}
+\section{Mathematical Formulas}
+%PWL-C4: Type an equation in-line with text
+An example of an in-text formula looks like: $A_{1} = 2\int_{d1}^{r1}\sqrt{r_{1}^{2}-x^{2}}dx$\\
+Where a seperate environment looks like:
+%PWL-C5: Type an equation seperately from text
+\begin{equation}
+ \begin{gathered}
+%PWL-B4: Use internal references to refer to figures
+%PWL-B1: Include text in an equation environment
+  \textrm{Equation for $A_{1}$ in Figure \ref{figure:geometry}} \\
+  A_{1} = 2\int_{d1}^{r1}\sqrt{r_{1}^{2}-x^{2}}dx \nonumber
+ \end{gathered}
+\end{equation}
+%PWL-B2: I can align equations with the align environment
+\begin{align}
+\textrm{Equation for $A_{2}$ in Figure \ref{figure:geometry}} \\
+A_{2} = 2\int_{d-r_{2}}^{d1}\sqrt{r_{2}^{2}-(x-d)^{2}}dx \nonumber
+\end{align}
+%PWL-B7: Reference ECP
+\printbibliography
+\end{document}

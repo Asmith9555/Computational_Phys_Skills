@@ -1,0 +1,4 @@
+This skill is to make a command to combine the contents of every .dat file to
+a file in a new directory, this can be done with the command:
+
+$ cat *.dat >> ../<fileName>.dat

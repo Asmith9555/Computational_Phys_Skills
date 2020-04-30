@@ -1,0 +1,3 @@
+The skill is to download and install MacTeX. I dont have a Mac operating system
+to work on, therefore I can't confirm, but I assume its as easy as installing
+the package off of the MacTeX website: https://www.tug.org/mactex/

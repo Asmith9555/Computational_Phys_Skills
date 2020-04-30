@@ -1,0 +1,15 @@
+The skill is to add a new environment variable to ~/.bashrc and then load into
+the current session, which can be done with the following code:
+
+Setting variable in shell:
+
+$ MY_VAR="Variable"
+
+Exporting shell variable as environment variable to ~/.bashrc:
+This is also CL-B6 (Addig a directory to path environment):
+
+$ export PATH="$HOME/bin:$PATH"
+
+Loading the environment variable into the current session:
+
+$ source ~/.bashrc

@@ -1,0 +1,6 @@
+The skill is to change the permissions on a file, which can be done using the
+code:
+
+$ chmod code <fileName>
+
+The "code" used above is dependent on which permissions wanted to give.
